@@ -1,0 +1,158 @@
+* {
+    box-sizing:border-box;
+    margin: 0px;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header {
+    height: 100%;
+    text-align: center;
+    font-size: 3vh;
+    color: white;
+    background-color: black;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* Ensuring the footer always remains at the bottom using absolute positioning */
+.footer {
+    bottom: 0;
+}
+
+.darkTheme {
+    text-align: left;
+    font-size: 1.75vh;
+    color: white;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.lightTheme {
+    text-align: left;
+    font-size: 1.75vh;
+    color: black;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.explanatory {
+    font-size: 2.10vh;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.caveat {
+    font-size: 1.75vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.menuHeading {
+    font-size: 2.0vh;
+    font-size: 
+}
+
+img {
+    background-color: black;
+}
+
+.menuSubsection {
+    background-color: white;
+}
+
+
+.price {
+    color: #a84736;
+    font-size: 1.75vh;
+}
+
+.description {
+    color: #786247;
+    font-size: 1.75vh;
+}
+
+.name {
+    color: #3f575a;
+    text-transform: uppercase;
+    font-size: 2vh;
+}
+
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+[class*="col-"] {
+    float: left;
+    padding: 15px;    
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+      width: 100%;
+    }
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+nav.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+  
+nav.topnav li {
+    float: left;
+    width: 20%;
+    font-size: 2.2vh;
+
+}
+  
+nav.topnav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 0.35vh 0.35vh;
+    text-decoration: none;
+}
+  
+nav.topnav li a:hover:not(.active) {background-color: rgb(43, 43, 43);}
+  
+nav.topnav li a.active {
+    background-color: rgb(43, 83, 43);
+}
+  
+nav.topnav li.right {float: right;}
+  
+@media screen and (max-width: 600px) {
+    nav.topnav li.right, 
+    nav.topnav li {
+        float: none;
+        height: 6vh;
+        font-size: 3vh;
+        width: 100%;
+    }
+}
+
