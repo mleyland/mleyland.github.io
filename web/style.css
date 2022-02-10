@@ -54,8 +54,6 @@ img {
 }
 
 .menuHeading {
-    font-size: 2.0vh;
-    font-size: 
 }
 
 img {
@@ -69,18 +67,15 @@ img {
 
 .price {
     color: #a84736;
-    font-size: 1.75vh;
 }
 
 .description {
     color: #786247;
-    font-size: 1.75vh;
 }
 
 .name {
     color: #3f575a;
     text-transform: uppercase;
-    font-size: 2vh;
 }
 
 

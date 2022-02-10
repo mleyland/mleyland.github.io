@@ -5,20 +5,30 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" />
     <link rel="stylesheet" href="style.css">
     <title>Menu</title>
 </head>
 
-<body class="lightTheme">
-    <header class="header">
-        <h1>Haukai Restaurant</h1>
+<body>
+    <header>
+        <div class="page-header text-center">
+            <h1>Haukai Restaurant</h1>
+        </div>
     </header>
-    <nav class="topnav">
-        <li><a href="/index.html">Home</a></li>
-        <li><a href="/Contact.html">Contact</a></li>
-        <li><a href="/Hours.html">Hours</a></li>
-        <li><a href="/Menu.html" class="active">Menu</a></li>
-        <li><a href="/Reservations.html">Reservations</a></li>
+    <nav class="navbar navbar-inverse">
+        <ul class="nav navbar-nav">
+            <li><a href="home.html">Home</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="hours.html">Hours</a></li>
+            <li class="active"><a href="menu.html">Menu</a></li>
+            <li><a href="reservations.html">Reservations</a></li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+            <li>
+                <a href="private/private.html"><span class="glyphicon glyphicon-log-in"></span> Staff Login</a>
+            </li>
+        </ul>
     </nav>
     <main>
         <div class="row menuHeading explanatory">
@@ -29,7 +39,7 @@
             <!-- This row for appetizers, mains and desserts on large screen -->
             <div class="col-3 menuSubsection">
                 <div class="menuHeading">
-                    <img src="/images/salmon.jpg" alt="Cooked salmon served on a plate">
+                    <img src="images/salmon.jpg" alt="Cooked salmon served on a plate">
                     <h2>APPETIZERS</h2><br>
                 </div>
                 <p class="name">Rewena Bread</p>
@@ -54,7 +64,7 @@
             </div>
             <div class="col-6 menuSubsection">
                 <div class="menuHeading">
-                    <img src="/images/lamb.jpg" alt="Lamb with vegetables served on a plate">
+                    <img src="images/lamb.jpg" alt="Lamb with vegetables served on a plate">
                     <h2>MAIN</h2><br>
                 </div>
                 <p class="name">Fish of the Day</p>
@@ -84,7 +94,7 @@
             </div>
             <div class="col-3 menuSubsection">
                 <div class="menuHeading">
-                    <img src="/images/pavlova.jpg" alt="Miniature pavlova topped with fruit">
+                    <img src="images/pavlova.jpg" alt="Miniature pavlova topped with fruit">
                     <h2>DESSERT</h2><br>
                 </div>
                 <p class="name">Kāpiti Ice Cream</p>
@@ -107,7 +117,7 @@
             <div class="col-12 menuSubsection menuHeading">
                 <h2>BEVERAGES</h2>
                 <div class="col-3 menuSubsection">
-                    <div class="menuHeading"><img src="/images/wine.jpg" alt="Glasses of red wine next to a meal"></div>
+                    <div class="menuHeading"><img src="images/wine.jpg" alt="Glasses of red wine next to a meal"></div>
                     <p class="name">RED</p>
                     <p class="price">Bottle/Glass</p><br>
                     <p class="description">Terrace Edge Pinot Noir, 2012, Wairarapa</p>
@@ -128,7 +138,7 @@
                     <p class="price">110</p><br>
                 </div>
                 <div class="col-3 menuSubsection">
-                    <div class="menuHeading"><img src="/images/white wine.jpg"
+                    <div class="menuHeading"><img src="images/white wine.jpg"
                             alt="A selection of New Zealand white wines"></div>
                     <p class="name">WHITE</p>
                     <p class="price">Bottle/Glass</p><br>
@@ -168,7 +178,7 @@
                     <p class="price">10</p><br>
                 </div>
                 <div class="col-3 menuSubsection">
-                    <div class="menuHeading"><img src="/images/coffee juice.jpg"
+                    <div class="menuHeading"><img src="images/coffee juice.jpg"
                             alt="Coffee and orange juice on an outdoor table"></div>
                     <p class="name">NON-ALCOHOLIC</p><br>
                     <p class="description">Mineral water</p>
@@ -191,11 +201,10 @@
                 requirements.</div>
         </div>
     </main>
-    <div class="row">
-        <footer class="footer col-12">
-            <p>Footer: Copyright and other information here</p><a href="/Privacy.html">Privacy statement here</a>
-        </footer>
-    </div>
+    <footer class="container-fluid text-center">
+        <p>Footer: Copyright and other information here</p>
+        <a href="privacy.html">Privacy statement here</a>
+    </footer>
 </body>
 
 </html>
